@@ -1,0 +1,36 @@
+body {
+    background-color: rgb(49, 97, 81);
+    color: white;
+}
+.container {
+    text-align: center;
+}
+span {
+    background-color: rgb(207, 121, 200);
+}
+div {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+input:read-only {
+    background-color: darkgrey;
+}
+input:invalid,
+textarea:invalid,
+input:out-of-range {
+    border: 2px solid red;
+}
+input:valid,
+textarea:valid,
+input:in-range {
+    border: 2px solid rgb(31, 189, 31);
+}
+input:required,
+textarea:required {
+    border-left: 2px solid rgb(207, 121, 200);
+}
+.submit:hover {
+    background-color: darkgreen;
+}
+
+
