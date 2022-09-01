@@ -1,0 +1,44 @@
+body {
+    font-family: sans-serif;
+    background-color: #fafafa;
+    box-sizing: border-box;
+}
+.heading {
+    margin: 22px auto 12px;
+    height: 51px;
+    width: 177px;
+    overflow: hidden;
+    background-position: -98px 0;
+    background-image: url("https://www.instagram.com/static/bundles/es6/sprite_core_b20f2a3cd7e4.png/b20f2a3cd7e4.png");
+}
+.box {
+    max-width: 350px; 
+    width: 100%;
+    border: 1px solid #230 230 230;
+    border-radius: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ffffff;
+    margin: 0 0 10px;
+    padding: 10px 0;
+    flex-grow: 1;
+}
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3rem;
+    font-size: 14px;
+}
+.field {
+    margin: 10px 0;
+    position: relative;
+    font-size: 14px;
+    width: 100%;
+    text-overflow: ellipsis;
+}

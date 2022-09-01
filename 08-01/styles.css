@@ -1,0 +1,37 @@
+html{
+    background-color: #411244;
+}
+h1 {
+    color:yellow;
+}
+h2 {
+    text-size-adjust: 30px;
+}
+h3{
+    size: 20px;
+}
+span{
+    font-size: 30px;
+}
+div {
+    width: 50%;
+    background-color: rgba(0,0,0,0.28);
+    color: #9a342f;
+    border: 3px dotted #eea63b;
+    text-align: center;
+    margin: 30px auto;
+    padding: 30px 20px 10px;
+
+}
+.justify-text{
+    text-align: justify;
+}
+p{
+    text-align: center;
+}
+.colorful-border{
+    border-width: 25px;
+    border-style: solid;
+    border-color: blue yellow red green;
+    border-radius: 15%;
+}
